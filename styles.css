@@ -1,0 +1,144 @@
+/* Color-scheme
+really-light-green= #cfffcf
+mid-light-green= #baffba
+mint-green= #98ff98
+dark-green= #033807
+reddish-brown= #401503
+dark-brown= #3f2a14*/
+
+body{background-color: #033807;
+     background-image: url(https://i.ytimg.com/vi/QnVI-IdW4WQ/maxresdefault.jpg);
+     background-repeat: repeat;
+     background-size: 500px;
+     margin-left: 100px;
+     margin-right: 100px;
+     padding-right:200px;
+     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+h1{text-align:center;
+   margin-left: 200px;
+   margin-right: auto;
+   text-decoration: underline;
+   letter-spacing: 5px;
+   font-style: oblique;
+   text-transform: uppercase;
+   font-weight:900;
+   font-size:70px;
+   color: #cfffcf;
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   text-shadow: -1px -1px 0 #033807, 1px -1px 0 #033807, -1px 1px 0 #033807, 1px 1px    0 #033807;
+  }
+
+.box{width: 75%;
+     padding: 12px 15px;
+     margin: 8px 0;
+     box-sizing: border-box;
+    }
+
+.pictures{flex: 1;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+          height: 200px;
+          height: auto;
+         }
+
+.block{margin-left:400px;
+       margin-right:auto;
+       margin-top:50px;
+       width: 50%;
+       padding: 10px;
+      }
+
+label{display: inline-block;
+      text-align: right;
+      font-style: oblique;
+      font-size:30px;
+      margin-left:-125px;
+      margin-right:15px;
+      color: #cfffcf;
+      font-weight:900;
+      text-shadow: -1px -1px 0 #033807, 1px -1px 0 #033807, -1px 1px 0 #033807, 1px         1px 0 #033807;
+      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+     }
+
+p{padding-right:50px;
+  padding-left:70px;
+  margin-left:-30px;
+ }
+
+.captions{display: inline-block;
+          text-align: left;
+          font-size:25px;
+          color: #cfffcf;
+          font-weight:900;
+          text-shadow: -1px -1px 0 #033807, 1px -1px 0 #033807, -1px 1px 0 #033807,             1px 1px 0 #033807;
+          font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+          flex: 1;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+         }
+
+button{margin-left: 500px;
+       margin-right: 500px;
+       margin-top:25px;
+       margin-bottom: 100px;
+       width: 150px;
+       background-color: #98ff98;
+       color: #033807;
+       font-weight: bold;
+       font-size: 20px;
+       border: 3px solid #033807;
+       padding: 6px 16px 6px 16px;
+       font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+      }
+
+img{height: 300px;
+    width: auto;
+    margin: 5px;
+    border-width:8px;  
+    border-style:double;
+    border-color: #033807;
+   }
+
+img:hover{border-color: #3f2a14;
+         }
+
+p:hover{color: #401503;
+        text-shadow: -1px -1px 0 #baffba, 1px -1px 0 #baffba, -1px 1px 0 #baffba, 1px         1px 0 #baffba;
+       }
+
+.title:hover{color: #3f2a14;
+             text-shadow: -1px -1px 0 #baffba, 1px -1px 0 #baffba, -1px 1px 0                      #baffba, 1px 1px 0 #baffba;
+            }
+
+label:hover{color: #3f2a14;
+            text-shadow: -1px -1px 0 #baffba, 1px -1px 0 #baffba, -1px 1px 0 #baffba,             1px 1px 0 #baffba;
+           }
+
+button:hover{color: #401503;
+             border:  3px solid #3f2a14;
+            }
+
+input[type=text]{background-color: #baffba;
+                 color: #3f2a14;
+                 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                 font-weight: bold;
+                 font-style: italic;
+                 font-size: 20px;
+                 border: 3px solid #033807;
+                 border-radius: 4px;
+                }
+
+::selection{background: #3f2a14;
+           }
+
+.box::selection{background: #033807;
+               }
+
+input:hover{border: 3px solid #3f2a14;
+           }
