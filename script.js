@@ -1,4 +1,6 @@
-var photos = ["https://www.mildtowildshoes.com/image/cache/catalog/shoes/amuse-20-red-5-inch-high-heel-pump-700x900.jpg", //high-heels
+$( document ).ready(function() {
+      
+      var photos = ["https://www.mildtowildshoes.com/image/cache/catalog/shoes/amuse-20-red-5-inch-high-heel-pump-700x900.jpg", //high-heels
 
       "https://i.pinimg.com/originals/3b/c5/89/3bc5894cb123bd49cc1d333e52573309.jpg", //wedges
                  
@@ -58,3 +60,4 @@ $(".pictures").append("<img src=" + photos[b] + ">");
  console.log(photos);
 
  //Just testing to make sure that the user's link is added into the "photos" array. 
+});
